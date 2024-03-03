@@ -1,0 +1,29 @@
+/* App.css */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.button-style {
+  background-color: white; /* Set button background to white */
+  color: black; /* Text color */
+  outline: none;
+  padding: 8px 16px; /* px-4 py-1 equivalent with more precise control */
+  border-radius: 9999px; /* rounded-full equivalent */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg equivalent */
+  margin: 0 8px; /* Spacing between buttons */
+  cursor: pointer; /* Cursor to pointer on hover */
+}
+
+.button-style:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
+
+/* Ensures the flex container itself is also centered within any parent */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
